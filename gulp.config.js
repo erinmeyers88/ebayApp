@@ -5,10 +5,9 @@ module.exports = function () {
 		
 		less: './styles/styles.less',
 		
-		alljs: [
-		'./features/**/*.js',
-		'./services/*.js'
-		]
+		alljs: './main/**/*.js',
+		
+		html: './main/**/*.html'
 	};
 	
 	return config;
